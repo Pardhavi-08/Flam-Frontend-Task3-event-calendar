@@ -2,7 +2,6 @@
 
 A simple yet powerful event calendar built using **React** and **Vite**. It allows users to schedule events with custom dates, times, and colors. Events are stored in `localStorage`, so they persist even after a page refresh.
 
----
 
 ## Features
 
