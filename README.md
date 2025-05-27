@@ -21,11 +21,21 @@ A simple yet powerful event calendar built using **React** and **Vite**. It allo
 
 ##  Technologies Used
 
--  **React** (Functional components + Hooks)  
--  **Vite** (Development & Build Tool)  
--  **Context API** (Global State Management)  
--  **date-fns** (Date manipulation)  
--  **CSS** (Custom styling, responsive layout)
+- **React** – For building the user interface using functional components and hooks.
+
+- **Vite** – Lightning-fast build tool and development server.
+
+- **JavaScript (ES6+)** – Core programming language for React and logic.
+
+- **CSS** – Custom styling with responsiveness.
+
+## Libraries & Packages
+- **Context API** – React’s built-in state management for sharing state across components.
+
+- **date-fns** – Lightweight utility library for manipulating and formatting dates.
+
+- **UUID** – To generate unique identifiers for each event.
+
 
 ---
 
