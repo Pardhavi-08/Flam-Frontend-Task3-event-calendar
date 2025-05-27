@@ -64,8 +64,7 @@ npm run dev
 ├── main.jsx  
 ├── index.css  
 
- public  
-
+public  
 vite.config.js  
 package.json  
 
