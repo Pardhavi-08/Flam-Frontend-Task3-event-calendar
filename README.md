@@ -39,7 +39,7 @@ A simple yet powerful event calendar built using **React** and **Vite**. It allo
 
 *Clone the repository:*
 
-   ```bash
+   bash
    git clone https://github.com/Pardhavi-08/Flam-Frontend-Task3-event-calendar.git
    cd Flam-Frontend-Task3-event-calendar
 
