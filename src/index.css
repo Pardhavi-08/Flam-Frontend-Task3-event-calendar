@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+}
+
+.calendar-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #183b70;
+}
+h2 {
+  text-align: center;
+  color: #183b70;
+}
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.calendar-header button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.calendar-header button:hover {
+  background-color: #2563eb;
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.calendar-cell {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  min-height: 110px;
+  padding: 8px;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.calendar-cell:hover {
+  background-color: #e0f2fe;
+}
+
+.today {
+  border: 2px solid #3b82f6;
+  background-color: #dbeafe;
+}
+
+.date-number {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #6b7280;
+}
+
+.event {
+  margin-top: 22px;
+  padding: 4px 6px;
+  font-size: 14px;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.event:hover {
+  transform: scale(1.03);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 24px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.modal-content input,
+.modal-content textarea,
+.modal-content select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.modal-content input[type="color"] {
+  height: 13.9px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modal-actions button[type="submit"] {
+  background-color: #10b981;
+  color: white;
+}
+
+.modal-actions button[type="submit"]:hover {
+  background-color: #059669;
+}
+
+.modal-actions button[type="button"] {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.modal-actions button[type="button"]:hover {
+  background-color: #d97706;
+}
+
+.modal-actions button:last-child {
+  background-color: #ef4444;
+}
+
+.modal-actions button:last-child:hover {
+  background-color: #dc2626;
+}
+
+.search-bar {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #183b70;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  width: 300px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: #183b70;
+}
+
+.search-results {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results li {
+  margin: 0.5rem 0;
+}
+
+.search-results button {
+  margin-left: 1rem;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+}
+.search-bar label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #183b70;
+}
