@@ -88,10 +88,12 @@ Screenshots
 
 ## Future Enhancements
 •	Drag-and-drop events between dates
+
 •	Google Calendar sync
+
 •	Notifications and reminders
-License
-This project is open-source and free to use for educational or personal projects.
+
+
 
 Built with care using React, Vite, and CSS.
 =======
