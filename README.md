@@ -54,20 +54,22 @@ npm run dev
 
 ## Project Structure
 
-src/
-├── components/
-│   ├── Calendar.jsx
-│   ├── DayCell.jsx
-│   └── EventModal.jsx
-├── context/
-│   └── CalendarContext.jsx
-├── App.jsx
-├── main.jsx
-├── index.css
+ src  
+├──  components  
+│   ├── Calendar.jsx  
+│   ├── DayCell.jsx  
+│   └── EventModal.jsx  
+├──  context  
+│   └── CalendarContext.jsx  
+├── App.jsx  
+├── main.jsx  
+├── index.css  
 
-public/
-vite.config.js
-package.json
+ public  
+
+vite.config.js  
+package.json  
+
 
 
 Screenshots
