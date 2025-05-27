@@ -1,40 +1,60 @@
-<<<<<<< HEAD
-React Event Calendar (Flam Frontend Task 3
-This project is a simple yet powerful event calendar built using React and Vite. It allows users to schedule events with start and end dates and times, choose custom colors, and search, edit, or delete them. All events are stored locally using `localStorage`, ensuring persistence even after a page refresh.
+# 📅 React Event Calendar (Flam Frontend Task 3)
 
-Features
-Add events with:
-•	Title
-•	Start and end date
-•	Start and end time with AM/PM format
-•	Custom event colour
+A simple yet powerful event calendar built using **React** and **Vite**. It allows users to schedule events with custom dates, times, and colors. Events are stored in `localStorage`, so they persist even after a page refresh.
 
-Recurrence options (Daily, Weekly, Monthly)
-Search events by Title
-Edit and delete existing events
-Events are saved using browser localStorage.
-Modern, clean UI with smooth interactions.
+---
 
-Technologies Used
-•	React (Functional components + Hooks)
-•	Vite (Development and build tool)
-•	Context API (for global state)
-•	date-fns (for date formatting and manipulation)
-•	CSS (custom styling, fully responsive)
+## Features
 
-Prerequisites
+- Add events with:
+  - Title  
+  - Start and end **date**  
+  - Start and end **time** (AM/PM format)  
+  - Custom **event color**
+
+- Recurrence options: **Daily**, **Weekly**, **Monthly**  
+- Search events by title  
+- Edit and delete existing events  
+- Events saved using browser `localStorage`  
+- Clean, responsive UI with smooth interactions
+
+---
+
+##  Technologies Used
+
+-  **React** (Functional components + Hooks)  
+-  **Vite** (Development & Build Tool)  
+-  **Context API** (Global State Management)  
+-  **date-fns** (Date manipulation)  
+-  **CSS** (Custom styling, responsive layout)
+
+---
+
+## Prerequisites
+
 - Node.js and npm installed on your system
 
-Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Pardhavi-08/Flam-Frontend-Task3-event-calender.git
-   cd Flam-Frontend-Task3-event-calender
-Install dependencies: npm install
-Start the development server: npm run dev
-Open your browser and navigate to: http://localhost:5173
+---
+## Installation
 
-Project Structure
+*Clone the repository:*
+
+   ```bash
+   git clone https://github.com/Pardhavi-08/Flam-Frontend-Task3-event-calendar.git
+   cd Flam-Frontend-Task3-event-calendar
+
+*Install dependencies:*
+Ensure you are in the correct directory. 
+bash
+npm install
+
+*Start the development server:*
+bash
+npm run dev
+
+
+## Project Structure
+
 src/
 ├── components/
 │   ├── Calendar.jsx
@@ -45,6 +65,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 ├── index.css
+
 public/
 vite.config.js
 package.json
@@ -66,17 +87,7 @@ Screenshots
 
 
 
-
-
-
-
-
-
-
-
-
-
-Future Enhancements
+## Future Enhancements
 •	Drag-and-drop events between dates
 •	Google Calendar sync
 •	Notifications and reminders
