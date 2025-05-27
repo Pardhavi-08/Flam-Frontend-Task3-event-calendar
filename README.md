@@ -38,19 +38,16 @@ A simple yet powerful event calendar built using **React** and **Vite**. It allo
 
 **Clone the repository:**
 ```
-
 git clone https://github.com/Pardhavi-08/Flam-Frontend-Task3-event-calendar.git
 cd Flam-Frontend-Task3-event-calendar
 ```
 **Install dependencies:**
 Ensure you are in the correct directory.
 ```
-
 npm install
 ```
 **Start the development server:**
 ```
-
 npm run dev
 ```
 
