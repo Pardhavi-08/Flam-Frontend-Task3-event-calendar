@@ -29,12 +29,25 @@ A simple yet powerful event calendar built using **React** and **Vite**. It allo
 
 - **CSS** – Custom styling with responsiveness.
 
+---
+
 ## Libraries & Packages
 - **Context API** – React’s built-in state management for sharing state across components.
 
 - **date-fns** – Lightweight utility library for manipulating and formatting dates.
 
 - **UUID** – To generate unique identifiers for each event.
+
+---
+## Development Tools
+
+- **Git & GitHub** – Version control and remote repository.
+
+- **Visual Studio Code** – Code editor.
+
+- **npm** – Node.js package manager for installing dependencies.
+
+- **localStorage** – For storing events persistently in the browser.
 
 
 ---
