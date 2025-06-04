@@ -96,7 +96,7 @@ package.json
 
 ![Screenshot 2025-05-27 123104](https://github.com/user-attachments/assets/465d1f44-eeca-46c2-b20b-7636d02d8665)
 
-![Screenshot 2025-05-27 123759](https://github.com/user-attachments/assets/d9042535-6d69-4f79-a863-317d5ed78396)
+![image](https://github.com/user-attachments/assets/cf0b7db4-1ab6-4277-a023-ed4144c2ffcf)
 
 ![Screenshot 2025-05-27 124745](https://github.com/user-attachments/assets/f59a41f3-deb1-4d35-92ef-cc3a4208faf3)
 
